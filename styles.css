@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+
+
+body {
+    background-color: #D74949;
+}
+
+.container {
+    background: #F3F3F3;
+    margin-left: 165px;
+    margin-right: 165px;
+    flex-shrink: 0;
+    max-width: 1110px;
+    height: 615px
+}
+
+footer {
+    background-color: #3A3A3A;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 27px;
+}
+
+h1 {
+    top: 100px;
+    position: relative;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0 51px 0 50px;
+}
+
+.am {
+    color: #8F2727;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 128px 51px 0px 50px;
+    color: #000;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.12px;
+}
+
+p {
+    margin: 7px 51px 0 50px;
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+.cadre {
+    width: 200px;
+    height: 300px;
+    margin: 38px 860px 100px 50px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cadre img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.name {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    margin-left: 20px;  
+}
+
+.role {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20px;
+
+}
+
+.linkedin img {
+    width: 18px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 0;
+}
+
+.whatsapp img {
+    width: 18px;
+    height: 16px;
+    margin-left: 8px ;
+    margin-top: 10px;
+    border-radius: 0 ;
+}
+
+
